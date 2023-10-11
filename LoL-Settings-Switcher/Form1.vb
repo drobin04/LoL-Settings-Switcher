@@ -49,4 +49,40 @@ Public Class Form1
         LoadSettingsStatus()
 
     End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        ' Close LeagueOfLegends.exe if it's running
+        EndProcessByName("LeagueClient")
+
+        ' Close Riot Client Services background task, RiotClientServices.exe
+        EndProcessByName("RiotClientServices")
+
+
+        ' Launch league of legends from directory, with commandline args
+        Process.Start("C:\Riot Games\League of Legends\LeagueClient.exe", "--locale=en_US")
+
+    End Sub
+
+    Private Sub EndProcessByName(Name As String)
+        Dim processes As Process() = Process.GetProcessesByName(Name)
+
+        If processes.Length > 0 Then
+            For Each proc As Process In processes
+                Try
+                    ' Kill the process
+                    proc.Kill()
+                    ' Wait for the process to exit
+                    proc.WaitForExit()
+                Catch ex As Exception
+                    ' Handle any exception that might occur
+                    Console.WriteLine("Error while terminating the process: " & ex.Message)
+                End Try
+            Next
+
+            Console.WriteLine("Killed " & Name & vbCrLf)
+        Else
+            Console.WriteLine("Didn't kill " & Name & ", process not running." & vbCrLf)
+        End If
+    End Sub
+
 End Class
