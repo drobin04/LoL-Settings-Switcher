@@ -37,6 +37,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -53,6 +61,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -139,9 +163,9 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:LoL Settings Locker"
+        "ProductName" = "8:LoL Account Switcher"
         "ProductCode" = "8:{30256336-B6B4-4F15-9B4C-20F32717BBA5}"
-        "PackageCode" = "8:{95AD548B-C2F0-4428-B5F2-4C410FB2F1C1}"
+        "PackageCode" = "8:{5B60FA93-CA2B-4050-B3E5-1BC3CB9B6548}"
         "UpgradeCode" = "8:{15AAE9DF-E074-4540-8B29-D39C36518634}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -149,12 +173,12 @@
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:HeimerSlinger"
+        "Manufacturer" = "8:Douglas Robinson"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
         "Title" = "8:installer"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:HeimerSlinger"
+        "ARPCONTACT" = "8:Douglas Robinson"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
@@ -263,7 +287,7 @@
         {
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_278A19B3D5A84CC0BB76C92BCD6B353E"
             {
-            "Name" = "8:League Settings Locker--Unlocker"
+            "Name" = "8:League Account Switcher"
             "Arguments" = "8:LoL-Settings-Switcher.exe"
             "Description" = "8:"
             "ShowCmd" = "3:1"

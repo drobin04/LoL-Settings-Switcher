@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "75nJT5lGqR/OHG/YsKPg2ASBb/YzEuBiYEPZv1KoHYV3og7KXplGFW07OATUwHK7MIhkD1qy66eulJfESIdTpA==",
+  "dgSpecHash": "8w/uFV70ZkMZq9mAJwCyIH4s9+y9Xoa5tPxJRdCRdMEe70IWj6TI9ZYumAEMF4Rcahn2jSCTU8y3ZxdlE/1AvQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Douglas\\Documents\\Github Repos\\LoL-Settings-Switcher\\LoL-Settings-Switcher\\LoL-Settings-Switcher.vbproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Douglas\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Douglas\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Douglas\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Douglas\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
   "logs": []
 }

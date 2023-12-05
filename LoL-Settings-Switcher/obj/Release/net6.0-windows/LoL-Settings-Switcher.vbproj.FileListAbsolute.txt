@@ -3,7 +3,6 @@ C:\Users\Douglas\Documents\Github Repos\LoL-Settings-Switcher\LoL-Settings-Switc
 C:\Users\Douglas\Documents\Github Repos\LoL-Settings-Switcher\LoL-Settings-Switcher\bin\Release\net6.0-windows\LoL-Settings-Switcher.runtimeconfig.json
 C:\Users\Douglas\Documents\Github Repos\LoL-Settings-Switcher\LoL-Settings-Switcher\bin\Release\net6.0-windows\LoL-Settings-Switcher.dll
 C:\Users\Douglas\Documents\Github Repos\LoL-Settings-Switcher\LoL-Settings-Switcher\bin\Release\net6.0-windows\LoL-Settings-Switcher.pdb
-C:\Users\Douglas\Documents\Github Repos\LoL-Settings-Switcher\LoL-Settings-Switcher\obj\Release\net6.0-windows\LoL-Settings-Switcher.vbproj.AssemblyReference.cache
 C:\Users\Douglas\Documents\Github Repos\LoL-Settings-Switcher\LoL-Settings-Switcher\obj\Release\net6.0-windows\LoL_Settings_Switcher.Form1.resources
 C:\Users\Douglas\Documents\Github Repos\LoL-Settings-Switcher\LoL-Settings-Switcher\obj\Release\net6.0-windows\LoL-Settings-Switcher.vbproj.GenerateResource.cache
 C:\Users\Douglas\Documents\Github Repos\LoL-Settings-Switcher\LoL-Settings-Switcher\obj\Release\net6.0-windows\LoL-Settings-Switcher.GeneratedMSBuildEditorConfig.editorconfig
@@ -15,3 +14,5 @@ C:\Users\Douglas\Documents\Github Repos\LoL-Settings-Switcher\LoL-Settings-Switc
 C:\Users\Douglas\Documents\Github Repos\LoL-Settings-Switcher\LoL-Settings-Switcher\obj\Release\net6.0-windows\LoL-Settings-Switcher.pdb
 C:\Users\Douglas\Documents\Github Repos\LoL-Settings-Switcher\LoL-Settings-Switcher\obj\Release\net6.0-windows\LoL-Settings-Switcher.genruntimeconfig.cache
 C:\Users\Douglas\Documents\Github Repos\LoL-Settings-Switcher\LoL-Settings-Switcher\obj\Release\net6.0-windows\ref\LoL-Settings-Switcher.dll
+C:\Users\Douglas\Documents\Github Repos\LoL-Settings-Switcher\LoL-Settings-Switcher\bin\Release\net6.0-windows\LoL-Settings-Switcher.dll.config
+C:\Users\Douglas\Documents\Github Repos\LoL-Settings-Switcher\LoL-Settings-Switcher\obj\Release\net6.0-windows\LoL-Settings-Switcher.sourcelink.json
