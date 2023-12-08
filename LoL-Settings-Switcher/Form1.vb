@@ -75,7 +75,7 @@ Public Class Form1
 
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+    Private Sub RestartClient(sender As Object, e As EventArgs) Handles Button3.Click
         ' Close LeagueOfLegends.exe if it's running
         EndProcessByName("LeagueClient")
 
@@ -123,7 +123,7 @@ Public Class Form1
         Process.Start("C:\Riot Games\League of Legends\LeagueClient.exe", "--locale=en_US")
 
     End Sub
-    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+    Private Sub NewProfile(sender As Object, e As EventArgs) Handles Button5.Click
         CloseApps()
 
         Dim newprofilename As String
@@ -136,6 +136,8 @@ Public Class Form1
 
         My.Computer.FileSystem.CopyDirectory(LocalRiotClientDir, newdirectoryname + "\Riot Client", True)
         MsgBox("Profile Saved! New Dir: " & newdirectoryname)
+        cboxProfile.Items.Clear()
+        GetProfileDirectories()
 
     End Sub
 
@@ -149,10 +151,7 @@ Public Class Form1
         Next
     End Sub
 
-    Private Sub cboxProfile_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboxProfile.SelectedIndexChanged
-
-    End Sub
-
+#Region "Open Dropdown on mouseover"
     Private Sub cboxProfile_MouseHover(sender As Object, e As EventArgs) Handles cboxProfile.MouseHover
         cboxProfile.DroppedDown = True
 
@@ -162,8 +161,9 @@ Public Class Form1
         cboxProfile.DroppedDown = True
 
     End Sub
+#End Region
 
-    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles btnLoad.Click
+    Private Sub LoadProfile(sender As Object, e As EventArgs) Handles btnLoad.Click
         CloseApps()
         Dim profiledir As String
         profiledir = WorkingDir + "\" + cboxProfile.SelectedItem.ToString + "\Riot Client"
@@ -175,13 +175,13 @@ Public Class Form1
         My.Computer.FileSystem.CopyDirectory(profiledir, LocalRiotClientDir, True)
         LaunchApps()
 
-        cboxProfile.Items.Clear()
-        GetProfileDirectories()
+
+
 
 
     End Sub
 
-    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+    Private Sub SignOutClient(sender As Object, e As EventArgs) Handles Button8.Click
         MsgBox("We are about to clear out the local Riot Client directory , to sign you out without expiring the auth token for the login, so that you can sign in and capture a new login. Ideally this is something you're doing after already copying this profile into the app :)")
         CloseApps()
 
@@ -191,10 +191,12 @@ Public Class Form1
 
     End Sub
 
-    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+    Private Sub DeleteProfile(sender As Object, e As EventArgs) Handles Button7.Click
         Dim profiledir As String
         profiledir = WorkingDir + "\" + cboxProfile.SelectedItem.ToString
         IO.Directory.Delete(profiledir, True)
+        cboxProfile.Items.Clear()
+        GetProfileDirectories()
 
     End Sub
 End Class
