@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("LoL-Settings-Switcher"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Release"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b2ea9381cae71b3c9a9c8738b406c09bdb5155f"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5cf61b003479f8972dc005291b165a348348c04a"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("LoL-Settings-Switcher"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("LoL-Settings-Switcher"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
