@@ -2,6 +2,7 @@
 
 ![Main](/LoL-Settings-Switcher/img/main.png)
 
+Youtube Video - https://www.youtube.com/watch?v=UebHuESrPwU
 
 This app has the following features: 
 
