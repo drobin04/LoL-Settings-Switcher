@@ -42,4 +42,8 @@ To use:
 You can then unlock your settings and tweak as needed. 
 
 
+# Setup
 
+Download and run [the setup files](/installer/Release/Lol-Settings-Switcher.zip) to install the application. 
+
+On first launch, the application will prompt you to select a working directory, which is used to copy the riot client files for each account logon. 
