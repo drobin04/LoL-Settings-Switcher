@@ -124,7 +124,7 @@ Public Class Form1
 
     End Sub
     Private Sub NewProfile(sender As Object, e As EventArgs) Handles Button5.Click
-        CloseApps()
+        'CloseApps()
 
         Dim newprofilename As String
         newprofilename = InputBox("Please enter a 'name' for the new profile, as you would like it to appear in the application dropdown.")
@@ -153,12 +153,12 @@ Public Class Form1
 
 #Region "Open Dropdown on mouseover"
     Private Sub cboxProfile_MouseHover(sender As Object, e As EventArgs) Handles cboxProfile.MouseHover
-        cboxProfile.DroppedDown = True
+        'cboxProfile.DroppedDown = True
 
     End Sub
 
     Private Sub cboxProfile_MouseEnter(sender As Object, e As EventArgs) Handles cboxProfile.MouseEnter
-        cboxProfile.DroppedDown = True
+        'cboxProfile.DroppedDown = True
 
     End Sub
 #End Region

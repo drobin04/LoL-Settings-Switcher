@@ -9,4 +9,6 @@ To use:
 
 You can then unlock your settings and tweak as needed. 
 
-![LSinGCpcPC](https://github.com/drobin04/LoL-Settings-Switcher/assets/90974129/2e3db33d-2d38-4b47-bf6a-5d3d32855806)
+![Main](img/main.png)
+
+
