@@ -9,6 +9,6 @@ To use:
 
 You can then unlock your settings and tweak as needed. 
 
-![Main](img/main.png)
+![Main](/img/main.png)
 
 
