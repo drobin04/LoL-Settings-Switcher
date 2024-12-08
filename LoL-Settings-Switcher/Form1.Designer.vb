@@ -35,7 +35,7 @@ Partial Class Form1
         ' 
         ' Button1
         ' 
-        Button1.Location = New Point(12, 115)
+        Button1.Location = New Point(12, 30)
         Button1.Name = "Button1"
         Button1.Size = New Size(75, 38)
         Button1.TabIndex = 0
@@ -44,7 +44,7 @@ Partial Class Form1
         ' 
         ' Button2
         ' 
-        Button2.Location = New Point(93, 115)
+        Button2.Location = New Point(93, 30)
         Button2.Name = "Button2"
         Button2.Size = New Size(75, 38)
         Button2.TabIndex = 0
@@ -62,7 +62,7 @@ Partial Class Form1
         ' 
         ' Button3
         ' 
-        Button3.Location = New Point(12, 159)
+        Button3.Location = New Point(12, 74)
         Button3.Name = "Button3"
         Button3.Size = New Size(156, 23)
         Button3.TabIndex = 2
@@ -73,14 +73,14 @@ Partial Class Form1
         ' 
         cboxProfile.DropDownStyle = ComboBoxStyle.DropDownList
         cboxProfile.FormattingEnabled = True
-        cboxProfile.Location = New Point(12, 27)
+        cboxProfile.Location = New Point(12, 517)
         cboxProfile.Name = "cboxProfile"
         cboxProfile.Size = New Size(99, 23)
         cboxProfile.TabIndex = 3
         ' 
         ' Button5
         ' 
-        Button5.Location = New Point(12, 57)
+        Button5.Location = New Point(12, 547)
         Button5.Name = "Button5"
         Button5.Size = New Size(75, 23)
         Button5.TabIndex = 5
@@ -89,7 +89,7 @@ Partial Class Form1
         ' 
         ' btnLoad
         ' 
-        btnLoad.Location = New Point(117, 27)
+        btnLoad.Location = New Point(117, 517)
         btnLoad.Name = "btnLoad"
         btnLoad.Size = New Size(58, 23)
         btnLoad.TabIndex = 6
@@ -98,7 +98,7 @@ Partial Class Form1
         ' 
         ' Button7
         ' 
-        Button7.Location = New Point(93, 57)
+        Button7.Location = New Point(93, 547)
         Button7.Name = "Button7"
         Button7.Size = New Size(75, 23)
         Button7.TabIndex = 7
@@ -107,7 +107,7 @@ Partial Class Form1
         ' 
         ' Button8
         ' 
-        Button8.Location = New Point(12, 86)
+        Button8.Location = New Point(12, 576)
         Button8.Name = "Button8"
         Button8.Size = New Size(156, 23)
         Button8.TabIndex = 8
@@ -118,7 +118,7 @@ Partial Class Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(187, 188)
+        ClientSize = New Size(180, 105)
         Controls.Add(Button8)
         Controls.Add(Button7)
         Controls.Add(btnLoad)
@@ -131,6 +131,7 @@ Partial Class Form1
         MaximizeBox = False
         MinimizeBox = False
         Name = "Form1"
+        SizeGripStyle = SizeGripStyle.Hide
         StartPosition = FormStartPosition.CenterScreen
         Text = "Leauge Login / Settings Manager"
         ResumeLayout(False)

@@ -1,0 +1,83 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Douglas\\Documents\\Github Repos\\LoL-Settings-Switcher\\LoL-Settings-Switcher\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4156AB5F-8D5E-465A-9C06-C9EC8E7E0608}|LoL-Settings-Switcher.vbproj|c:\\users\\douglas\\documents\\github repos\\lol-settings-switcher\\lol-settings-switcher\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{4156AB5F-8D5E-465A-9C06-C9EC8E7E0608}|LoL-Settings-Switcher.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4156AB5F-8D5E-465A-9C06-C9EC8E7E0608}|LoL-Settings-Switcher.vbproj|c:\\users\\douglas\\documents\\github repos\\lol-settings-switcher\\lol-settings-switcher\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{4156AB5F-8D5E-465A-9C06-C9EC8E7E0608}|LoL-Settings-Switcher.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4156AB5F-8D5E-465A-9C06-C9EC8E7E0608}|LoL-Settings-Switcher.vbproj|c:\\users\\douglas\\documents\\github repos\\lol-settings-switcher\\lol-settings-switcher\\lol-settings-switcher.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{4156AB5F-8D5E-465A-9C06-C9EC8E7E0608}|LoL-Settings-Switcher.vbproj|solutionrelative:lol-settings-switcher.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4156AB5F-8D5E-465A-9C06-C9EC8E7E0608}|LoL-Settings-Switcher.vbproj|C:\\Users\\Douglas\\Documents\\Github Repos\\LoL-Settings-Switcher\\LoL-Settings-Switcher\\my project\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{4156AB5F-8D5E-465A-9C06-C9EC8E7E0608}|LoL-Settings-Switcher.vbproj|solutionrelative:my project\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoL-Settings-Switcher",
+              "DocumentMoniker": "C:\\Users\\Douglas\\Documents\\Github Repos\\LoL-Settings-Switcher\\LoL-Settings-Switcher\\LoL-Settings-Switcher.vbproj",
+              "RelativeDocumentMoniker": "LoL-Settings-Switcher.vbproj",
+              "ToolTip": "C:\\Users\\Douglas\\Documents\\Github Repos\\LoL-Settings-Switcher\\LoL-Settings-Switcher\\LoL-Settings-Switcher.vbproj",
+              "RelativeToolTip": "LoL-Settings-Switcher.vbproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003380|",
+              "WhenOpened": "2023-12-05T07:10:54.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Douglas\\Documents\\Github Repos\\LoL-Settings-Switcher\\LoL-Settings-Switcher\\Form1.vb",
+              "RelativeDocumentMoniker": "Form1.vb",
+              "ToolTip": "C:\\Users\\Douglas\\Documents\\Github Repos\\LoL-Settings-Switcher\\LoL-Settings-Switcher\\Form1.vb [Design]",
+              "RelativeToolTip": "Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2023-10-07T21:56:33.032Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\Douglas\\Documents\\Github Repos\\LoL-Settings-Switcher\\LoL-Settings-Switcher\\Form1.vb",
+              "RelativeDocumentMoniker": "Form1.vb",
+              "ToolTip": "C:\\Users\\Douglas\\Documents\\Github Repos\\LoL-Settings-Switcher\\LoL-Settings-Switcher\\Form1.vb",
+              "RelativeToolTip": "Form1.vb",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAlwFwAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2023-10-07T21:57:20.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "C:\\Users\\Douglas\\Documents\\Github Repos\\LoL-Settings-Switcher\\LoL-Settings-Switcher\\My Project\\Settings.settings",
+              "RelativeDocumentMoniker": "My Project\\Settings.settings",
+              "ToolTip": "C:\\Users\\Douglas\\Documents\\Github Repos\\LoL-Settings-Switcher\\LoL-Settings-Switcher\\My Project\\Settings.settings",
+              "RelativeToolTip": "My Project\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002768|",
+              "WhenOpened": "2023-12-05T07:11:05.629Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,10 @@
 ﻿Imports System.Configuration
 Imports System.IO
 Imports System.Net.Http
+Imports System.Runtime.InteropServices
+Imports System.Threading
+Imports System.Diagnostics
+Imports System.Windows.Forms
 
 Public Class Form1
 
@@ -9,9 +13,11 @@ Public Class Form1
     Public WorkingDir As String
     Public AppDataLocalDir As String = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Riot Games")
     Public LocalRiotClientDir As String = AppDataLocalDir + "\Riot Client"
+    Public LaunchLeagueCommand As String = "C:\Riot Games\Riot Client\RiotClientServices.exe"
+    Public LaunchLeagueCommandParameters As String = "--launch-product=league_of_legends --launch-patchline=live"
+
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         LoadSettingsStatus()
-
 
         ' Determine if Riot Games installed at default location
         If IO.Directory.Exists("C:\Riot Games\") Then
@@ -20,19 +26,19 @@ Public Class Form1
 
         End If
 
-        If My.Settings.WorkingDirectory <> "" Then
-            WorkingDir = My.Settings.WorkingDirectory
+        'If My.Settings.WorkingDirectory <> "" Then
+        '    WorkingDir = My.Settings.WorkingDirectory
 
-        Else
-            Dim ofd As New FolderBrowserDialog
-            ofd.Description = "Please select the directory we will be using in this app. Subdirectories will be created for each profile."
-            ofd.ShowDialog()
-            WorkingDir = ofd.SelectedPath
-            My.Settings.WorkingDirectory = ofd.SelectedPath
+        'Else
+        '    Dim ofd As New FolderBrowserDialog
+        '    ofd.Description = "Please select the directory we will be using in this app. Subdirectories will be created for each profile."
+        '    ofd.ShowDialog()
+        '    WorkingDir = ofd.SelectedPath
+        '    My.Settings.WorkingDirectory = ofd.SelectedPath
 
-        End If
+        'End If
 
-        GetProfileDirectories()
+        'GetProfileDirectories()
 
     End Sub
 
@@ -84,7 +90,7 @@ Public Class Form1
 
 
         ' Launch league of legends from directory, with commandline args
-        Process.Start("C:\Riot Games\League of Legends\LeagueClient.exe", "--locale=en_US")
+        Process.Start(LaunchLeagueCommand, LaunchLeagueCommandParameters)
 
     End Sub
 
@@ -120,7 +126,7 @@ Public Class Form1
 
     Public Sub LaunchApps()
         ' Launch league of legends from directory, with commandline args
-        Process.Start("C:\Riot Games\League of Legends\LeagueClient.exe", "--locale=en_US")
+        Process.Start(LaunchLeagueCommand, LaunchLeagueCommandParameters)
 
     End Sub
     Private Sub NewProfile(sender As Object, e As EventArgs) Handles Button5.Click
@@ -199,4 +205,5 @@ Public Class Form1
         GetProfileDirectories()
 
     End Sub
+
 End Class
